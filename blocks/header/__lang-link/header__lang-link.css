@@ -1,0 +1,22 @@
+.header__lang-link{
+  color: white;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+.header__lang-link:hover{
+    text-decoration: underline;
+    opacity: 70%;
+    transition: 0.2s ease-in-out;
+
+}
+.header__lang-link:last-child{
+    
+    margin: 0;
+}
