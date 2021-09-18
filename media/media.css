@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .lead{
+        margin: 48px 0 56px 0;
+    }
+    .intro{
+        margin: 36px 0 0 0;
+    }
+    .photo-grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        max-width: 928px;
+    }
+    .place{
+        margin: 80px 0 0 0;
+    }
+    .cover{
+        margin: 92px -48px 0 -48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page{
+        padding: 0 24px;
+    }
+    .photo-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;   
+        max-width: 720px;
+    }
+    .place__image{
+        
+    }
+}
