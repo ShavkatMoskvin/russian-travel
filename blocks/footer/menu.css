@@ -4,3 +4,8 @@
     display: flex;
     list-style-type: none;
 }
+@media screen and (max-width: 320px){
+    .menu{
+        flex-direction: column;
+    }
+}

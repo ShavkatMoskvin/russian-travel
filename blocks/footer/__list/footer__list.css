@@ -1,0 +1,14 @@
+.footer__list{
+    margin: 0px 0px 0px 0px;
+}
+.footer__list:first-of-type{
+    margin: 0px 0px 0px 0px;
+}
+@media screen and (width: 320px) {
+  .footer__list{
+      margin: 32px 0px 0px 0px;
+  }
+  .footer__list:first-of-type{
+      margin: 0px 0px 0px 0px;
+  }
+}

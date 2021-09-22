@@ -1,6 +1,22 @@
 .place{
-    margin: 80px 100px 0 100px;
+    margin: 80px 148px 0 148px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 884px;
+}
+@media screen and (max-width: 1024px){
+    .place{
+        margin: 80px 48px 0 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .place{
+        margin: 80px 24px 0 24px;
+    }
+}
+@media screen and (max-width: 320px){
+    .place{
+        grid-template-columns: 1fr;
+        margin: 64px 0 0 0;
+    }
 }
