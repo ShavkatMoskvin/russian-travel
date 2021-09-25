@@ -2,8 +2,3 @@
     margin: 0 auto;
     max-width: 100%;
 }
-@media screen and (max-width: 768px){
-    .lead__image{
-        image-resolution: 120%;
-    }
-}

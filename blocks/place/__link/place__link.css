@@ -6,11 +6,15 @@
     line-height: 22px;
     text-decoration: none;
     color: #FFFFFF;
-
+    text-decoration-line: underline; 
 }
+
 .place__link:hover{
     transition: 0.2s;
     opacity: 80%;
-    text-decoration-line: underline; 
 }
- 
+@media screen and (max-width: 502px) {
+    .place__link{
+        font-size: 3.1873vw;
+    }
+}
