@@ -4,6 +4,17 @@
   flex-direction: column;
   margin: 0  0 0 40px;
 }
+@media screen and (max-width: 1024px){
+  .place__website{
+    margin: 0px 0px 0px 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__website{
+    margin: 0px 0px 0px 28px;
+  }
+  
+}
 @media screen and (max-width: 320px){
   .place__website{
     margin: 0px 0px 0px 16px;

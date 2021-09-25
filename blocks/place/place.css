@@ -1,17 +1,20 @@
 .place{
-    margin: 80px 148px 0 148px;
+    margin: 92px 148px 0 148px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 884px;
+    max-width: 984px;
 }
 @media screen and (max-width: 1024px){
     .place{
-        margin: 80px 48px 0 48px;
+        margin: 92px 48px 0 48px;
+        max-width: 928px;
     }
 }
 @media screen and (max-width: 768px){
     .place{
-        margin: 80px 24px 0 24px;
+        margin: 88px 24px 0 24px;
+        max-width: 720px;
+        grid-template-columns: 46.7% 1fr;
     }
 }
 @media screen and (max-width: 320px){
