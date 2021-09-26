@@ -1,4 +1,4 @@
-.footer__copyright{
+.footer__copyright {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -6,16 +6,18 @@
     text-align: right;
     color: #FFFFFF;
     margin: auto 0;
-    max-height: 16px;
 }
-@media screen and (max-width: 768px){
-    .footer__copyright{
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
         font-size: 1.82vw;
     }
 }
-@media screen and (max-width: 320px){
-    .footer__copyright{
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
         font-size: 14px;
+        /*Тут надо оставить т.к в 320px текст будед мелким*/
         line-height: 100%;
         margin: 48px 0px 0px 0px;
     }
