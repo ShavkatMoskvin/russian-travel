@@ -14,13 +14,7 @@
     opacity: 80%;
 }
 
-@media screen and (max-width: 502px) {
-    .place__link {
-        font-size: 3.1873vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
     .place__link {
         font-size: 18px;
     }

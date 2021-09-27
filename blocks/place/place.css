@@ -1,24 +1,27 @@
-.place{
+.place {
     margin: 92px 148px 0 148px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 984px;
 }
-@media screen and (max-width: 1024px){
-    .place{
+
+@media screen and (max-width: 1024px) {
+    .place {
         margin: 92px 48px 0 48px;
         max-width: 928px;
     }
 }
-@media screen and (max-width: 768px){
-    .place{
+
+@media screen and (max-width: 768px) {
+    .place {
         margin: 88px 24px 0 24px;
         max-width: 720px;
         grid-template-columns: 46.7% 1fr;
     }
 }
-@media screen and (max-width: 320px){
-    .place{
+
+@media screen and (max-width: 460px) {
+    .place {
         grid-template-columns: 1fr;
         margin: 64px 0 0 0;
     }

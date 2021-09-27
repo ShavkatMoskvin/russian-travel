@@ -30,13 +30,7 @@
     }
 }
 
-@media screen and (max-width: 383px) {
-    .place__paragraph {
-        font-size: 4.178vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
     .place__paragraph:first-child {
         margin: 32px 16px 0 16px;
     }
