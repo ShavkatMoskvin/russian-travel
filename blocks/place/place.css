@@ -3,12 +3,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 984px;
+    gap: 48px 40px;
+    justify-items: stretch;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         margin: 92px 48px 0 48px;
         max-width: 928px;
+        gap: 0;
     }
 }
 
